@@ -1,61 +1,73 @@
-const discord = require("discord.js");
-const { GoogleGenerativeAI } = require("@google/generative-ai");
-require('dotenv').config();
-const MODEL = "gemini-pro";
-const API_KEY = process.env.API_KEY || "";
-const BOT_TOKEN = process.env.BOT_TOKEN || "";
-const CHANNEL_ID = process.env.CHANNEL_ID || "";
+import { Client, GatewayIntentBits } from "discord.js";
+import { GoogleGenerativeAI } from "@google/generative-ai";
+import "dotenv/config";
 
-const ai = new GoogleGenerativeAI(API_KEY);
-const model = ai.getGenerativeModel({ model: MODEL });
+const API_KEY = process.env.GEMINI_API_KEY;
+const BOT_TOKEN = process.env.BOT_TOKEN;
+const MODEL = "gemini-2.0-flash";
 
-const client = new discord.Client({
-  intents: Object.keys(discord.GatewayIntentBits),
+if (!API_KEY || !BOT_TOKEN) {
+  throw new Error("❌ Pastikan GEMINI_API_KEY dan BOT_TOKEN sudah ditambahkan di file .env");
+}
+
+const genAI = new GoogleGenerativeAI(API_KEY);
+const model = genAI.getGenerativeModel({ model: MODEL });
+
+const client = new Client({
+  intents: [
+    GatewayIntentBits.Guilds,
+    GatewayIntentBits.GuildMessages,
+    GatewayIntentBits.MessageContent,
+  ],
 });
 
-client.on("ready", () => {
-  console.log("Bot is ready!");
+client.once("ready", () => {
+  console.log(`🤖 ${client.user.tag} siap menjadi dukun Jawa modern! 🌙`);
 });
-
-client.login(BOT_TOKEN);
 
 client.on("messageCreate", async (message) => {
   try {
     if (message.author.bot) return;
-    if (message.channel.id !== CHANNEL_ID) return;
 
-    // Ignore messages that don't contain any meaningful content
-    if (!message.content.trim()) {
+    const content = message.content.trim();
+    if (!content) return;
+
+    console.log(`📩 Pesan diterima dari ${message.author.tag}: ${content}`);
+
+    // 🔒 Filter: hanya tanggapi jika mengandung kata "primbon"
+    if (!/primbon/i.test(content)) {
+      await message.reply("Aku hanya memberikan wangsit seputar **Primbon Jawa** saja 🕯️");
       return;
     }
 
     await message.channel.sendTyping();
-    
-    const { response } = await model.generateContent(message.content);
 
-    // Check if there is anything to say
-    const generatedText = response.text().trim();
-    if (!generatedText) {
-      message.reply("I have nothing to say.");
+    console.log("🔮 Mengirim pesan ke Gemini:", content);
+
+    const result = await model.generateContent({
+      contents: [{ role: "user", parts: [{ text: content }] }],
+    });
+
+    const text = result.response.text().trim();
+
+    if (!text) {
+      await message.reply("Aku belum mendapat wangsit dari alam gaib... 🌫️");
       return;
     }
 
-        // Check if the response was blocked due to safety
-    if (response.text().includes("Response was blocked due to SAFETY")) {
-       message.reply("I'm sorry, but I can't provide that response to keep the content safe and clean.");
-       return;
-        }
+    console.log("✨ Balasan dari Gemini:", text);
 
-    // Check if the generated text is too long for Discord to handle
-    if (generatedText.length > 2000) {
-      message.reply("I have too much to say for Discord to fit in one message.");
-    } else {
-      message.reply({
-        content: generatedText,
-      });
+
+    const chunks = text.match(/[\s\S]{1,1900}/g);
+    for (const chunk of chunks) {
+      await message.reply(chunk);
     }
+
+    console.log("✅ Pesan berhasil dibalas!");
   } catch (error) {
-    console.error("Error:", error.message);
-    console.error(error.stack);
+    console.error("❌ Error terjadi:", error);
+    await message.reply("Dukun Jawa tersandung batu metafisik... coba lagi nanti. 🪬");
   }
 });
+
+client.login(BOT_TOKEN);
