@@ -1,128 +1,145 @@
 <div align="center">
 
 # 🧙‍♂️ Si Dukun Jawa  
-### _AI Primbon & Mood Reflection Bot for Discord_
+### _LLM Agent Primbon Jawa & Mood Reflection (Discord + CLI)_
 
-<img width="350" height="384" alt="pakdukun" src="https://github.com/user-attachments/assets/b4c9fc13-7fa9-454a-8488-34e53d108d3d" />
+<img width="340" alt="pakdukun" src="https://github.com/user-attachments/assets/b4c9fc13-7fa9-454a-8488-34e53d108d3d" />
 
 </div>
 
 ---
 
-## 🪶 Deskripsi
-**Si Dukun Jawa** adalah chatbot AI berbasis Discord yang memadukan _kearifan lokal Jawa_ dengan teknologi **Large Language Model (LLM)**.  
-Bot ini bertindak sebagai “dukun digital” yang memberikan **pitutur Jawa**, membaca **primbon/weton**, menanyakan **mood harian**, dan memberikan **refleksi mingguan** berbasis data pengguna.
+## 🪶 Deskripsi  
+**Si Dukun Jawa** adalah proyek chatbot berbasis **Large Language Model (LLM)** yang memadukan teknologi modern dengan kearifan lokal Jawa.  
+Bot ini berperilaku seperti **dukun digital modern** — memberikan pitutur, membaca primbon dan weton, serta menanggapi pertanyaan dengan gaya khas orang Jawa: lembut, bijak, kadang lucu juga.
 
-> Tujuannya bukan meramal masa depan, tetapi membantu pengguna melakukan _refleksi diri_ dengan cara yang lucu, bijak, dan berbudaya.
+Proyek ini dibuat untuk memenuhi tugas akhir mata kuliah **Natural Language Processing (NLP)**, dengan fokus pada penerapan LLM Agent di platform **Discord** dan juga **Command Line Interface (CLI)**.
+
+> Tujuannya bukan untuk meramal, tapi membantu pengguna melakukan refleksi diri dan memahami makna keseharian lewat nilai-nilai budaya.
 
 ---
 
 ## ⚙️ Tech Stack
 - **Node.js 20+**
 - **Discord.js v14**
-- **OpenAI API (GPT-4o-mini)** atau **Gemini API**
-- **JSON File Storage**
-- **node-cron** (scheduler recap)
-- **pino** (logging)
-- **vitest** (unit test)
+- **Gemini API (Google Generative AI)**
+- **dotenv** untuk manajemen environment variables  
+- **nodemon** untuk mode pengembangan  
+- **fs logger** untuk menyimpan percakapan  
+- **Node Test Runner (`node:test`)** untuk pengujian unit & integrasi  
 
 ---
 
 ## 📂 Struktur Proyek
 ```
-src/
- ├─ index.js         # Main bot & event handler
- ├─ agent.js         # LLM persona Si Dukun Jawa
- ├─ primbon.js       # Logika primbon & pitutur
- ├─ store.js         # Penyimpanan user & mood
- ├─ scheduler.js     # Recap mingguan otomatis
- ├─ logger.js        # Logging sistem
- └─ commands/        # Command Discord (!primbon, !mood, !recap)
-data/
- ├─ primbon_data.json
- └─ users.json
-logs/
- └─ app.log
-tests/
-.env.example
-README.md
-package.json
+si-dukun-jawa/
+├─ index.js # Main bot untuk Discord
+├─ cli.js # Mode Command Line Interface
+├─ logger.js # Sistem logging sederhana
+├─ primbon.js # (opsional) fungsi tambahan tafsir primbon
+├─ tests/
+│ ├─ chatbot.behavior.test.js # 10 pengujian perilaku LLM
+│ ├─ cli.integration.test.js # 3 pengujian integrasi CLI
+│ └─ logger.test.js # (opsional) validasi sistem log
+├─ logs/
+│ └─ app.log 
+├─ .env.example
+├─ package.json
+└─ README.md
 ```
-
 ---
 
-## 🚀 Instalasi & Menjalankan
-1. Clone repository:
-   ```bash
-   git clone https://github.com/<user>/si-dukun-jawa.git
-   cd si-dukun-jawa
-   npm install
-   ```
-2. Salin `.env.example` → `.env` dan isi token:
-   ```
-   DISCORD_BOT_TOKEN=your-token
-   OPENAI_API_KEY=your-key
-   BOT_NAME=Si Dukun Jawa
-   ```
-3. Jalankan bot:
-   ```bash
-   npm run dev
-   ```
-4. Invite bot ke server Discord kamu dan coba command!
+## 🚀 Cara Menjalankan
 
----
-
-## 💬 Command Utama
-| Command | Fungsi |
-|----------|---------|
-| `!help` | Menampilkan daftar perintah |
-| `!primbon <Hari> <Pasaran>` | Menampilkan weton dan makna reflektif |
-| `!harian` | Memberi pitutur dan tanya mood |
-| `!mood <senang/stres/bingung/lelah/semangat>` | Simpan mood harian |
-| `!recap` | Menampilkan insight mingguan pengguna |
-
----
-
-## 🧠 Contoh Output
-```
-> !primbon Selasa Kliwon
-🧙‍♂️ Wetonmu Selasa Kliwon — watak tenang tapi sensitif.
-Pitutur dina iki: "Urip iku urup — hidup itu menyala memberi manfaat."
-Saran: istirahat secukupnya, besok energi akan kembali. ✨
-```
-
----
-
-## 🧪 Testing
-Jalankan semua unit test:
+### 1️⃣ Instalasi
 ```bash
+git clone https://github.com/<user>/si-dukun-jawa.git
+cd si-dukun-jawa
+npm install
+```
+2️⃣ Konfigurasi .env
+
+Buat file .env dari contoh .env.example, lalu isi dengan:
+```
+GEMINI_API_KEY=your-gemini-api-key
+BOT_TOKEN=your-discord-bot-token
+BOT_NAME=Si Dukun Jawa
+```
+
+3️⃣ Menjalankan versi CLI
+Untuk mencoba langsung di terminal:
+```
+npm run dev:cli
+```
+Contoh interaksi:
+🪶 Dukun> Primbon Jumat Legi
+Watakmu tenang, sabar, tapi jangan terlalu dipendam. 
+Coba tersenyum hari ini — energi baikmu menular ke sekitar.
+
+4️⃣ Menjalankan versi Discord
+Untuk mengaktifkan bot di server Discord:
+```
+npm run dev:discord
+```
+Kirim pesan di server Discord:
+primbon Selasa Kliwon
+Si Dukun akan menjawab dengan tafsir weton dan pitutur khas Jawa 🌙
+
+---
+
+🧪 Testing
+Proyek ini memiliki 14 pengujian otomatis yang mencakup:
+1. Respons chatbot terhadap sapaan dan pertanyaan primbon
+2. Nuansa bahasa dan gaya khas Jawa
+3. Integrasi CLI
+4. Validasi sistem logging
+Jalankan semua test:
+```
 npm test
 ```
-Minimal 6 kasus mencakup:
-- Perhitungan neptu & weton  
-- Penyimpanan log & mood  
-- Validasi command  
-- Recap mingguan  
 
----
-
-## 🗃️ Logs
-Semua aktivitas disimpan di `/logs/app.log` untuk audit & debugging.
-
-Contoh:
+Contoh hasil:
 ```
-[INFO] User @Annisa menggunakan !primbon Selasa Kliwon
-[INFO] Response: Pitutur - Urip iku urup.
+✔ Greeting response feels friendly
+✔ Responds with mystic tone
+✔ CLI starts and displays greeting text
+✔ CLI logs file is created after interaction
+...
+All 14 tests passed 
+```
+---
+
+🗃️ Logging
+Semua percakapan yang terjadi (baik di CLI maupun Discord) dicatat otomatis di folder logs/app.log.
+Contoh isi log:
+```
+2025-10-21T17:42:03.124Z [CLI] Primbon Jumat Legi -> Watak energik, tapi perlu sabar.
+2025-10-21T17:43:12.827Z [CLI] Aku lelah -> Saran: tarik napas dan tulis hal baik yang terjadi hari ini.
 ```
 
 ---
 
-## 👥 Tim NLP
-| Anggota | NIM | Peran | Fokus |
-|----------|-------|-------|--------|
-| **Rani Nirmala P.** | 22/493982/TK/54153 | Core Agent & Integrasi LLM | Integrasi Discord, LLM (Gemini/OpenAI), primbon logic |
-| **Barbara Neanake A.** | 22/494495/TK/54238 | Data & Testing Engineer | Primbon logic, Logging, store, scheduler, test, dokumentasi |
+💬 Contoh Output
+> Hi Mbah Dukun, apa primbon untuk gadis kelahiran 23 April 2005?
+```
+Ealah, Nduk. Lintangmu Banteng, watak keras tapi penyayang. Rejeki lumayan, jodoh pilih-pilih. Sing penting, eling Gusti, ojo lali ngaji. Mbah saran, sesuk pagi, sedekah subuh, ya?
+```
 
 ---
 
-> _"Sura dira jayaningrat lebur dening pangastuti — kemarahan kalah oleh kelembutan."_
+## 👥 Tim Developer
+| Nama | NIM | Peran | Fokus |
+|------|------|-------|--------|
+| **Rani Nirmala P.** | 22/493982/TK/54153 | Core Agent & Integrasi LLM | Integrasi Gemini API, Discord Bot, dan logika |
+| **Barbara Neanake A.** | 22/494495/TK/54238 | Logic, Data, & Testing Engineer | Finalize logic, CLI system, logging, unit testing, dokumentasi |
+
+---
+
+<div align="center">
+
+## _"Sura dira jayaningrat lebur dening pangastuti."_
+Kemarahan dan kekuatan akan luluh oleh kelembutan. 🌿
+
+<div>
+
+---
