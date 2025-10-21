@@ -2,26 +2,27 @@
   "type": "module",
   "name": "si-dukun-jawa-llm-agent-discord",
   "version": "1.0.0",
-  "description": "Si Dukun Jawa adalah LLM Agent berbasis Discord yang berperilaku seperti dukun modern dari tanah Jawa — bijak, mistis, tapi kadang ngawur juga 🧙‍♂️.",
+  "description": "🪶 Si Dukun Jawa — LLM Agent berbasis Discord yang memadukan Primbon Jawa dan AI modern. Dukun digital yang bijak, humoris, dan siap memberi wangsit mistis nan reflektif.",
   "main": "index.js",
   "scripts": {
+    "dev:cli": "node cli.js",
+    "dev:discord": "nodemon index.js",
     "start": "node index.js",
-    "dev": "nodemon index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node --test"
   },
   "keywords": [
     "discord-bot",
     "gemini",
     "llm-agent",
     "indonesia",
-    "tarot",
     "primbon",
-    "jawa"
+    "jawa",
+    "AI",
+    "bot"
   ],
   "author": "Rani Nirmala Prakoso",
   "license": "MIT",
   "dependencies": {
-    "@google/genai": "^1.25.0",
     "@google/generative-ai": "^0.24.1",
     "discord.js": "^14.23.2",
     "dotenv": "^17.2.3"
