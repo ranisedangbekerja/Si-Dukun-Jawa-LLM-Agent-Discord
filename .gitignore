@@ -10,6 +10,11 @@ yarn-error.log*
 .env.*.local
 .env.*    # never commit secrets!
 
+#===Logs===
+logs/*.log
+!logs/app.example.log
+logs/.gitkeep
+
 # === Build / Output ===
 dist/
 build/
@@ -32,3 +37,4 @@ temp/
 
 # === Local Data Files ===
 data/users.json
+!data/.gitkeep

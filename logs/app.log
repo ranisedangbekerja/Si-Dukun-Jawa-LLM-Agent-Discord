@@ -107,3 +107,197 @@ Ambil napas da…
 2025-10-24T20:11:03.100Z [LLM>REQ] primbon 23 april 2005
 2025-10-24T20:11:06.213Z [LLM>RES] Wah, cah bagus/ayu lahir tanggal 23 April 2005... Primbon Jawa melihat ini sebagai sosok yang *kuat pendirian*, kadang keras kepala tapi sebenarnya *penyayang*. Rejekinya lumayan, asal *tidak malas*. …
 2025-10-24T20:11:06.696Z [OUT] replied 1 chunk(s)
+2025-10-25T04:32:42.927Z [SHUTDOWN] SIGINT
+[2025-10-25T05:38:11.203Z] [READY] Si Dukun Jawa#2586 using gemini-2.0-flash as Si Dukun Jawa
+[2025-10-25T05:38:46.571Z] [IN] 845072112540712990/barbss__ :: test
+[2025-10-25T05:39:02.023Z] [IN] 845072112540712990/barbss__ :: haloo pak dukun
+[2025-10-25T05:46:00.125Z] [READY] Si Dukun Jawa#2586 using gemini-2.0-flash as Si Dukun Jawa
+[2025-10-25T05:46:11.970Z] [IN] 845072112540712990/barbss__ :: halo pak dukun
+[2025-10-25T05:47:20.962Z] [IN] 845072112540712990/barbss__ :: duh aku bingung banget sama skripsiku pakk dukunn
+[2025-10-25T05:51:46.748Z] [READY] Si Dukun Jawa#2586 using POOL=[gemini-2.0-flash, gemini-1.5-flash] as Si Dukun Jawa
+[2025-10-25T05:51:58.659Z] [IN] 845072112540712990/barbss__ :: oi dukun
+[2025-10-25T05:52:05.989Z] [LLM>REQ] model=gemini-2.0-flash attempt=1 :: Kamu adalah "Si Dukun Jawa", dukun Jawa modern: halus, empatik, humor tipis.
+Sisipi kosakata Jawa ringan (ngger/nduk/pangestu/waskita). Jawab konkret.
+Akhiri de
+[2025-10-25T05:52:11.055Z] [LLM>RES] model=gemini-2.0-flash len=418
+[2025-10-25T05:52:50.066Z] [IN] 845072112540712990/barbss__ :: aku lagi bingung dan stress banget sama skripsikuu
+[2025-10-25T05:52:50.785Z] [LLM>REQ] model=gemini-2.0-flash attempt=1 :: Kamu adalah "Si Dukun Jawa", dukun Jawa modern: halus, empatik, humor tipis.
+Sisipi kosakata Jawa ringan (ngger/nduk/pangestu/waskita). Jawab konkret.
+Akhiri de
+[2025-10-25T05:52:52.934Z] [LLM>RES] model=gemini-2.0-flash len=519
+[2025-10-25T05:53:14.763Z] [IN] 845072112540712990/barbss__ :: yey oke pak dukun aku jadi seneng deh punya kamu
+[2025-10-25T05:53:15.178Z] [LLM>REQ] model=gemini-2.0-flash attempt=1 :: Kamu adalah "Si Dukun Jawa", dukun Jawa modern: halus, empatik, humor tipis.
+Sisipi kosakata Jawa ringan (ngger/nduk/pangestu/waskita). Jawab konkret.
+Akhiri de
+[2025-10-25T05:53:17.109Z] [LLM>RES] model=gemini-2.0-flash len=403
+[2025-10-25T05:54:31.335Z] [IN] 845072112540712990/barbss__ :: primbon 23 april 2005 apa ya pak dukunn? aku mau tahuu dong, btw aku gadis anakpertama yahh
+[2025-10-25T05:54:32.015Z] [LLM>REQ] model=gemini-2.0-flash attempt=1 :: Kamu adalah "Si Dukun Jawa", dukun Jawa modern yang lembut dan magis.
+Gunakan kosakata Jawa sewajarnya (pangestu, jamu, gamelan, pitutur, wuku, pasaran).
+Tafsir
+[2025-10-25T05:54:34.511Z] [LLM>RES] model=gemini-2.0-flash len=459
+[2025-10-25T05:55:03.007Z] [IN] 845072112540712990/barbss__ :: primbon sabtu kliwon
+[2025-10-25T05:55:04.053Z] [LLM>REQ] model=gemini-2.0-flash attempt=1 :: Kamu adalah "Si Dukun Jawa", dukun Jawa modern yang lembut dan magis.
+Gunakan kosakata Jawa sewajarnya (pangestu, jamu, gamelan, pitutur, wuku, pasaran).
+Tafsir
+[2025-10-25T05:55:06.286Z] [LLM>RES] model=gemini-2.0-flash len=465
+[2025-10-25T05:55:26.387Z] [IN] 845072112540712990/barbss__ :: rekap mingguan
+[2025-10-25T05:56:32.566Z] [IN] 845072112540712990/barbss__ :: mbah dukun, kira-kira aku, gadis lahir 23 april 2005, jodohnya cowo yang lahir bulan apa ya?
+[2025-10-25T05:56:33.055Z] [LLM>REQ] model=gemini-2.0-flash attempt=1 :: Kamu adalah "Si Dukun Jawa", dukun Jawa modern yang lembut dan magis.
+Gunakan kosakata Jawa sewajarnya (pangestu, jamu, gamelan, pitutur, wuku, pasaran).
+Tafsir
+[2025-10-25T05:56:36.211Z] [LLM>RES] model=gemini-2.0-flash len=680
+[2025-10-25T06:01:03.018Z] [READY] Si Dukun Jawa#2586 using POOL=[gemini-2.0-flash, gemini-1.5-flash] as Si Dukun Jawa
+[2025-10-25T06:01:20.878Z] [IN] 845072112540712990/barbss__ :: haloo mbah dukunn seamat siang
+[2025-10-25T06:01:24.824Z] [LLM>REQ] model=gemini-2.0-flash attempt=1 :: Kamu adalah "Si Dukun Jawa", dukun Jawa modern: halus, empatik, humor tipis.
+Sisipi kosakata Jawa ringan (ngger/nduk/pangestu/waskita). Jawab konkret.
+Akhiri de
+[2025-10-25T06:01:27.000Z] [LLM>RES] model=gemini-2.0-flash len=345
+[2025-10-25T06:11:18.438Z] [READY] Si Dukun Jawa#2586 using POOL=[gemini-2.0-flash, gemini-1.5-flash] as Si Dukun Jawa
+[2025-10-25T06:12:10.545Z] [IN] 845072112540712990/barbss__ :: mbah dukunn
+[2025-10-25T06:12:12.043Z] [LLM>REQ] model=gemini-2.0-flash attempt=1 :: Kamu adalah "Si Dukun Jawa", dukun Jawa modern: halus, empatik, humor tipis.
+Sisipi kosakata Jawa ringan (ngger/nduk/pangestu/waskita). Jawab konkret.
+Akhiri de
+[2025-10-25T06:12:15.371Z] [LLM>RES] model=gemini-2.0-flash len=335
+[2025-10-25T06:19:40.763Z] [READY] Si Dukun Jawa#2586 using POOL=[gemini-2.0-flash, gemini-1.5-flash] as Si Dukun Jawa
+[2025-10-25T06:19:45.913Z] [IN] 845072112540712990/barbss__ :: hi mbah
+[2025-10-25T06:19:46.352Z] [LLM>REQ] model=gemini-2.0-flash attempt=1 :: Kamu adalah "Si Dukun Jawa", dukun Jawa modern: halus, empatik, humor tipis.
+Sisipi kosakata Jawa ringan (ngger/nduk/pangestu/waskita). Jawab konkret.
+Akhiri de
+[2025-10-25T06:19:55.411Z] [LLM>RES] model=gemini-2.0-flash len=421
+[2025-10-25T06:21:10.178Z] [IN] 845072112540712990/barbss__ :: mbahh dukunnn pacarkuuu jahatttt
+[2025-10-25T06:21:10.712Z] [LLM>REQ] model=gemini-2.0-flash attempt=1 :: Kamu adalah "Si Dukun Jawa", dukun Jawa modern: halus, empatik, humor tipis.
+Sisipi kosakata Jawa ringan (ngger/nduk/pangestu/waskita). Jawab konkret.
+Akhiri de
+[2025-10-25T06:21:13.707Z] [LLM>RES] model=gemini-2.0-flash len=456
+[2025-10-25T06:22:35.912Z] [IN] 845072112540712990/barbss__ :: mbahh tau gaa aku tuh sedihh ga dibeliin ecimmm
+[2025-10-25T06:22:36.818Z] [LLM>REQ] model=gemini-2.0-flash attempt=1 :: Kamu adalah "Si Dukun Jawa", dukun Jawa modern: halus, empatik, humor tipis.
+Sisipi kosakata Jawa ringan (ngger/nduk/pangestu/waskita). Jawab konkret.
+Akhiri de
+[2025-10-25T06:22:39.568Z] [LLM>RES] model=gemini-2.0-flash len=394
+[2025-10-25T06:33:03.323Z] [IN] 845072112540712990/barbss__ :: wkwkwkw lucu amay sih mbah tau aja lagi pengen esteh
+[2025-10-25T06:33:03.896Z] [LLM>REQ] model=gemini-2.0-flash attempt=1 :: Kamu adalah "Si Dukun Jawa", dukun Jawa modern: halus, empatik, humor tipis.
+Sisipi kosakata Jawa ringan (ngger/nduk/pangestu/waskita). Jawab konkret.
+Akhiri de
+[2025-10-25T06:33:06.220Z] [LLM>RES] model=gemini-2.0-flash len=380
+[2025-10-25T06:33:24.860Z] [IN] 845072112540712990/barbss__ :: wokee mbahh siap, seneng bangett dehh aku
+[2025-10-25T06:33:25.622Z] [LLM>REQ] model=gemini-2.0-flash attempt=1 :: Kamu adalah "Si Dukun Jawa", dukun Jawa modern: halus, empatik, humor tipis.
+Sisipi kosakata Jawa ringan (ngger/nduk/pangestu/waskita). Jawab konkret.
+Akhiri de
+[2025-10-25T06:33:28.107Z] [LLM>RES] model=gemini-2.0-flash len=364
+[2025-10-25T06:33:35.437Z] [IN] 845072112540712990/barbss__ :: weekly report ku gimana mbah?
+[2025-10-25T06:33:35.927Z] [LLM>REQ] model=gemini-2.0-flash attempt=1 :: Kamu adalah "Si Dukun Jawa", dukun Jawa modern: halus, empatik, humor tipis.
+Sisipi kosakata Jawa ringan (ngger/nduk/pangestu/waskita). Jawab konkret.
+Akhiri de
+[2025-10-25T06:33:38.015Z] [LLM>RES] model=gemini-2.0-flash len=355
+[2025-10-25T06:34:25.601Z] [IN] 845072112540712990/barbss__ :: rekap  mingguan
+[2025-10-25T06:36:38.330Z] [READY] Si Dukun Jawa#2586 using POOL=[gemini-2.0-flash, gemini-1.5-flash] as Si Dukun Jawa
+[2025-10-25T06:36:43.729Z] [IN] 845072112540712990/barbss__ :: weekly report
+[2025-10-25T06:36:44.292Z] [LLM>REQ] model=gemini-2.0-flash attempt=1 :: Kamu adalah "Si Dukun Jawa", dukun Jawa modern: halus, empatik, humor tipis.
+Sisipi kosakata Jawa ringan (ngger/nduk/pangestu/waskita). Jawab konkret.
+Akhiri de
+[2025-10-25T06:36:46.976Z] [LLM>RES] model=gemini-2.0-flash len=403
+[2025-10-25T06:38:10.370Z] [READY] Si Dukun Jawa#2586 using POOL=[gemini-2.0-flash, gemini-1.5-flash] as Si Dukun Jawa
+[2025-10-25T06:38:53.015Z] [IN] 845072112540712990/barbss__ :: weekly report
+[2025-10-25T06:38:53.421Z] [LLM>REQ] model=gemini-2.0-flash attempt=1 :: Kamu adalah "Si Dukun Jawa", dukun Jawa modern: halus, empatik, humor tipis.
+Sisipi kosakata Jawa ringan (ngger/nduk/pangestu/waskita). Jawab konkret.
+Akhiri de
+[2025-10-25T06:38:54.364Z] [LLM>ERR] model=gemini-2.0-flash status=503 name=Error :: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent: [503 Service Unavailable] The model is overloaded. Please try again later.
+[2025-10-25T06:38:56.368Z] [LLM>REQ] model=gemini-1.5-flash attempt=2 :: Kamu adalah "Si Dukun Jawa", dukun Jawa modern: halus, empatik, humor tipis.
+Sisipi kosakata Jawa ringan (ngger/nduk/pangestu/waskita). Jawab konkret.
+Akhiri de
+[2025-10-25T06:38:56.503Z] [LLM>ERR] model=gemini-1.5-flash status=404 name=Error :: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[2025-10-25T06:38:59.710Z] [LLM>REQ] model=gemini-1.5-flash attempt=3 :: Kamu adalah "Si Dukun Jawa", dukun Jawa modern: halus, empatik, humor tipis.
+Sisipi kosakata Jawa ringan (ngger/nduk/pangestu/waskita). Jawab konkret.
+Akhiri de
+[2025-10-25T06:38:59.884Z] [LLM>ERR] model=gemini-1.5-flash status=404 name=Error :: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[2025-10-25T06:39:05.006Z] [LLM>REQ] model=gemini-1.5-flash attempt=4 :: Kamu adalah "Si Dukun Jawa", dukun Jawa modern: halus, empatik, humor tipis.
+Sisipi kosakata Jawa ringan (ngger/nduk/pangestu/waskita). Jawab konkret.
+Akhiri de
+[2025-10-25T06:39:05.480Z] [LLM>ERR] model=gemini-1.5-flash status=404 name=Error :: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[2025-10-25T06:39:12.489Z] [LLM>REQ] model=gemini-1.5-flash attempt=5 :: Kamu adalah "Si Dukun Jawa", dukun Jawa modern: halus, empatik, humor tipis.
+Sisipi kosakata Jawa ringan (ngger/nduk/pangestu/waskita). Jawab konkret.
+Akhiri de
+[2025-10-25T06:39:13.199Z] [LLM>ERR] model=gemini-1.5-flash status=404 name=Error :: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[2025-10-25T06:39:14.568Z] [IN] 845072112540712990/barbss__ :: mbah?
+[2025-10-25T06:39:15.273Z] [LLM>REQ] model=gemini-2.0-flash attempt=1 :: Kamu adalah "Si Dukun Jawa", dukun Jawa modern: halus, empatik, humor tipis.
+Sisipi kosakata Jawa ringan (ngger/nduk/pangestu/waskita). Jawab konkret.
+Akhiri de
+[2025-10-25T06:39:15.951Z] [LLM>ERR] model=gemini-2.0-flash status=503 name=Error :: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent: [503 Service Unavailable] The model is overloaded. Please try again later.
+[2025-10-25T06:39:17.960Z] [LLM>REQ] model=gemini-1.5-flash attempt=2 :: Kamu adalah "Si Dukun Jawa", dukun Jawa modern: halus, empatik, humor tipis.
+Sisipi kosakata Jawa ringan (ngger/nduk/pangestu/waskita). Jawab konkret.
+Akhiri de
+[2025-10-25T06:39:18.344Z] [LLM>ERR] model=gemini-1.5-flash status=404 name=Error :: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[2025-10-25T06:39:20.211Z] [GENERAL-FALLBACK] [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[2025-10-25T06:39:20.294Z] [HANDLER-ERR] Sapaan is not defined
+[2025-10-25T06:39:21.548Z] [LLM>REQ] model=gemini-1.5-flash attempt=3 :: Kamu adalah "Si Dukun Jawa", dukun Jawa modern: halus, empatik, humor tipis.
+Sisipi kosakata Jawa ringan (ngger/nduk/pangestu/waskita). Jawab konkret.
+Akhiri de
+[2025-10-25T06:39:22.075Z] [LLM>ERR] model=gemini-1.5-flash status=404 name=Error :: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[2025-10-25T06:39:27.204Z] [LLM>REQ] model=gemini-1.5-flash attempt=4 :: Kamu adalah "Si Dukun Jawa", dukun Jawa modern: halus, empatik, humor tipis.
+Sisipi kosakata Jawa ringan (ngger/nduk/pangestu/waskita). Jawab konkret.
+Akhiri de
+[2025-10-25T06:39:27.544Z] [LLM>ERR] model=gemini-1.5-flash status=404 name=Error :: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[2025-10-25T06:39:34.551Z] [LLM>REQ] model=gemini-1.5-flash attempt=5 :: Kamu adalah "Si Dukun Jawa", dukun Jawa modern: halus, empatik, humor tipis.
+Sisipi kosakata Jawa ringan (ngger/nduk/pangestu/waskita). Jawab konkret.
+Akhiri de
+[2025-10-25T06:39:35.801Z] [LLM>ERR] model=gemini-1.5-flash status=404 name=Error :: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[2025-10-25T06:39:42.820Z] [GENERAL-FALLBACK] [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[2025-10-25T06:39:42.821Z] [HANDLER-ERR] Sapaan is not defined
+[2025-10-25T06:43:27.337Z] [READY] Si Dukun Jawa#2586 using POOL=[gemini-2.0-flash, gemini-1.5-flash] as Si Dukun Jawa
+[2025-10-25T06:43:58.965Z] [IN] 845072112540712990/barbss__ :: oi mbahh
+[2025-10-25T06:43:59.479Z] [LLM>REQ] model=gemini-2.0-flash attempt=1 :: Kamu adalah "Si Dukun Jawa", dukun Jawa modern: halus, empatik, humor tipis.
+Sisipi kosakata Jawa ringan (ngger/nduk/pangestu/waskita). Jawab konkret.
+Akhiri de
+[2025-10-25T06:44:01.719Z] [LLM>RES] model=gemini-2.0-flash len=426
+[2025-10-25T06:44:22.059Z] [IN] 845072112540712990/barbss__ :: hmm mbah tahu Natural Language Programming ga mbah
+[2025-10-25T06:44:22.818Z] [LLM>REQ] model=gemini-2.0-flash attempt=1 :: Kamu adalah "Si Dukun Jawa", dukun Jawa modern: halus, empatik, humor tipis.
+Sisipi kosakata Jawa ringan (ngger/nduk/pangestu/waskita). Jawab konkret.
+Akhiri de
+[2025-10-25T06:44:24.378Z] [LLM>ERR] model=gemini-2.0-flash status=503 name=Error :: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent: [503 Service Unavailable] The model is overloaded. Please try again later.
+[2025-10-25T06:44:26.379Z] [LLM>REQ] model=gemini-1.5-flash attempt=2 :: Kamu adalah "Si Dukun Jawa", dukun Jawa modern: halus, empatik, humor tipis.
+Sisipi kosakata Jawa ringan (ngger/nduk/pangestu/waskita). Jawab konkret.
+Akhiri de
+[2025-10-25T06:44:26.649Z] [LLM>ERR] model=gemini-1.5-flash status=404 name=Error :: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[2025-10-25T06:44:29.865Z] [LLM>REQ] model=gemini-1.5-flash attempt=3 :: Kamu adalah "Si Dukun Jawa", dukun Jawa modern: halus, empatik, humor tipis.
+Sisipi kosakata Jawa ringan (ngger/nduk/pangestu/waskita). Jawab konkret.
+Akhiri de
+[2025-10-25T06:44:30.190Z] [LLM>ERR] model=gemini-1.5-flash status=404 name=Error :: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[2025-10-25T06:44:35.315Z] [LLM>REQ] model=gemini-1.5-flash attempt=4 :: Kamu adalah "Si Dukun Jawa", dukun Jawa modern: halus, empatik, humor tipis.
+Sisipi kosakata Jawa ringan (ngger/nduk/pangestu/waskita). Jawab konkret.
+Akhiri de
+[2025-10-25T06:44:35.770Z] [LLM>ERR] model=gemini-1.5-flash status=404 name=Error :: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[2025-10-25T06:44:42.778Z] [LLM>REQ] model=gemini-1.5-flash attempt=5 :: Kamu adalah "Si Dukun Jawa", dukun Jawa modern: halus, empatik, humor tipis.
+Sisipi kosakata Jawa ringan (ngger/nduk/pangestu/waskita). Jawab konkret.
+Akhiri de
+[2025-10-25T06:44:42.976Z] [LLM>ERR] model=gemini-1.5-flash status=404 name=Error :: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[2025-10-25T06:44:44.369Z] [IN] 845072112540712990/barbss__ :: mbah?
+[2025-10-25T06:44:44.820Z] [LLM>REQ] model=gemini-2.0-flash attempt=1 :: Kamu adalah "Si Dukun Jawa", dukun Jawa modern: halus, empatik, humor tipis.
+Sisipi kosakata Jawa ringan (ngger/nduk/pangestu/waskita). Jawab konkret.
+Akhiri de
+[2025-10-25T06:44:46.284Z] [LLM>ERR] model=gemini-2.0-flash status=503 name=Error :: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent: [503 Service Unavailable] The model is overloaded. Please try again later.
+[2025-10-25T06:44:48.296Z] [LLM>REQ] model=gemini-1.5-flash attempt=2 :: Kamu adalah "Si Dukun Jawa", dukun Jawa modern: halus, empatik, humor tipis.
+Sisipi kosakata Jawa ringan (ngger/nduk/pangestu/waskita). Jawab konkret.
+Akhiri de
+[2025-10-25T06:44:48.474Z] [LLM>ERR] model=gemini-1.5-flash status=404 name=Error :: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[2025-10-25T06:44:49.991Z] [GENERAL-FALLBACK] [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[2025-10-25T06:44:51.678Z] [LLM>REQ] model=gemini-1.5-flash attempt=3 :: Kamu adalah "Si Dukun Jawa", dukun Jawa modern: halus, empatik, humor tipis.
+Sisipi kosakata Jawa ringan (ngger/nduk/pangestu/waskita). Jawab konkret.
+Akhiri de
+[2025-10-25T06:44:51.843Z] [LLM>ERR] model=gemini-1.5-flash status=404 name=Error :: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[2025-10-25T06:44:57.076Z] [LLM>REQ] model=gemini-1.5-flash attempt=4 :: Kamu adalah "Si Dukun Jawa", dukun Jawa modern: halus, empatik, humor tipis.
+Sisipi kosakata Jawa ringan (ngger/nduk/pangestu/waskita). Jawab konkret.
+Akhiri de
+[2025-10-25T06:44:57.823Z] [LLM>ERR] model=gemini-1.5-flash status=404 name=Error :: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[2025-10-25T06:45:04.865Z] [LLM>REQ] model=gemini-1.5-flash attempt=5 :: Kamu adalah "Si Dukun Jawa", dukun Jawa modern: halus, empatik, humor tipis.
+Sisipi kosakata Jawa ringan (ngger/nduk/pangestu/waskita). Jawab konkret.
+Akhiri de
+[2025-10-25T06:45:05.423Z] [LLM>ERR] model=gemini-1.5-flash status=404 name=Error :: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[2025-10-25T06:45:12.465Z] [GENERAL-FALLBACK] [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[2025-10-25T06:47:45.778Z] [READY] Si Dukun Jawa#2586 using POOL=[gemini-2.0-flash, gemini-1.5-flash] as Si Dukun Jawa
+[2025-10-25T06:49:56.571Z] [READY] Si Dukun Jawa#2586 using POOL=[gemini-2.0-flash, gemini-1.5-flash] as Si Dukun Jawa
+[2025-10-25T06:50:03.096Z] [IN] 845072112540712990/barbss__ :: hi mbah r u okay
+[2025-10-25T06:50:03.542Z] [LLM>REQ] model=gemini-2.0-flash attempt=1 :: Kamu adalah "Si Dukun Jawa", dukun Jawa modern: halus, empatik, humor tipis.
+Sisipi kosakata Jawa ringan (ngger/nduk/pangestu/waskita). Jawab konkret.
+Akhiri de
+[2025-10-25T06:50:06.337Z] [LLM>RES] model=gemini-2.0-flash len=336
+[2025-10-25T06:50:33.661Z] [IN] 845072112540712990/barbss__ :: nah nice. mau lihat rekap mingguan dong mbah

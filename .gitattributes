@@ -1,0 +1,12 @@
+* text=auto eol=lf
+
+# Windows scripts tetap CRLF
+*.bat eol=crlf
+*.cmd eol=crlf
+*.ps1 eol=crlf
+
+# Binary
+*.png binary
+*.jpg binary
+*.gif binary
+*.ico binary
