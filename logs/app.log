@@ -41,3 +41,69 @@
 2025-10-21T14:38:17.946Z [CLI] hmmm iya kah -> Hemmm, iya... tapi "iya kah?" itu seperti gerimis di ladang tebu, perlu ditelisik lebih dalam. Ada gundah yang tersembunyi di balik tanya. Biar saya terawang dulu... *mengeluarkan kartu tarot bergamba…
 2025-10-21T14:38:49.106Z [CLI] hello -> Sugeng rawuh! (Selamat datang!) Ada gundah gulana apa hari ini? Biar Si Dukun Jawa urun rembug, siapa tahu ada jalan. Hidup itu kadang koyo kopi, pahit tapi bikin melek. Tapi jangan kuatir, sedikit gu…
 2025-10-21T14:39:14.413Z [CLI] bagaimana primbon keuangan 23 april 2005 -> Wah, kelahiranmu di tanggal itu dinaungi kemauan kuat, tapi kadang kurang sabaran. Soal keuangan, perlu belajar menabung dan hindari spekulasi berlebihan. Saran Simbah, coba sisihkan uang receh setiap…
+2025-10-21T14:59:56.258Z [CLI] primbon Selasa Kliwon -> Ah, Selasa Kliwon... *narik napas*, perpaduan energi dahsyat. Lakumu lurus, bicaramu manis, rejeki mengalir deras. Kadang keras kepala, tapi hatimu emas. Malam ini, coba sedekah makanan ke tetangga, b…
+2025-10-21T15:00:27.681Z [CLI] Hi Mbah Dukun, apa primbon untuk gadis kelahiran 23 April 2005? -> Ealah, Nduk. Lintangmu Banteng, watak keras tapi penyayang. Rejeki lumayan, jodoh pilih-pilih. Sing penting, eling Gusti, ojo lali ngaji. Mbah saran, sesuk pagi, sedekah subuh, ya?
+2025-10-24T19:04:07.919Z [CLI] hi -> Sugeng rawuh. Ada gundah gulana apa yang bisa Si Dukun bantu tenangkan? Jangan sungkan, saya bukan orang yang suka mematok harga tinggi, kok. Asal jangan minta pesugihan saja, ya. Sedikit senyuman har…
+2025-10-24T19:05:19.696Z [CLI] primbon Februari 2004 -> Hmm, Februari 2004... energi muda penuh semangat. Ada bara api di sana, tapi perlu sentuhan air agar tak membakar diri. Jaga emosi, perbanyak sabar, dan jangan lupa bersyukur. *Tindakan: Malam ini, co…
+2025-10-24T19:21:44.552Z [CLI] 1+1 -> Wah, pertanyaan mendalam! Satu ditambah satu itu bagaikan rindu yang bertemu, hasilnya bukan hanya dua, tapi kebahagiaan. Angka memang sederhana, tapi maknanya bisa luas. Hehe. Coba tarik napas dalam,…
+2025-10-24T19:33:19.105Z [READY] Si Dukun Jawa#2586 using gemini-2.0-flash as Si Dukun Jawa
+2025-10-24T19:35:03.195Z [SHUTDOWN] SIGINT
+2025-10-24T19:35:20.823Z [READY] Si Dukun Jawa#2586 using gemini-2.0-flash as Si Dukun Jawa
+2025-10-24T19:38:14.730Z [SHUTDOWN] SIGINT
+2025-10-24T19:38:21.517Z [READY] Si Dukun Jawa#2586 using gemini-2.0-flash as Si Dukun Jawa
+2025-10-24T19:46:55.289Z [IN] 845072112540712990/barbss__ :: hi dukun
+2025-10-24T19:46:58.041Z [LLM>RES] Sugeng rawuh! Dukun Jawa di sini, siap mendengarkan uneg-uneg. Tenang, semua masalah ada *wuku* dan *wayang*-nya. Ceritakan saja, siapa tahu ada *jamu* yang pas untuk *waras* pikiran. Jangan lupa, hid…
+2025-10-24T19:46:58.583Z [OUT] replied 1 chunk(s)
+2025-10-24T19:47:22.490Z [IN] 845072112540712990/barbss__ :: hi dukun
+2025-10-24T19:47:24.903Z [LLM>RES] Sugeng rawuh, anakku. Ada gundah apa gerangan yang ingin dituturkan? Jangan sungkan, Si Dukun Jawa siap mendengarkan. Angin sore memang syahdu, tapi kadang membawa resah. Ceritakan saja, siapa tahu ad…
+2025-10-24T19:47:25.371Z [OUT] replied 1 chunk(s)
+2025-10-24T19:53:07.379Z [SHUTDOWN] SIGINT
+2025-10-24T19:54:04.888Z [READY] Si Dukun Jawa#2586 using gemini-2.0-flash as Si Dukun Jawa
+2025-10-24T19:54:13.300Z [IN] 845072112540712990/barbss__ :: oi dukun
+2025-10-24T19:54:13.713Z [LLM>REQ] oi dukun
+2025-10-24T19:54:15.525Z [LLM>RES] Ah, anak muda datang mencari pencerahan. Hidup itu seperti wayang, dalangnya Gusti Allah, lakonnya kita sendiri yang menoreh. Jangan terlalu kaku, Nak. Angin berhembus, lenturkan badan.
+Ambil napas da…
+2025-10-24T19:54:16.141Z [OUT] replied 1 chunk(s)
+2025-10-24T19:55:39.484Z [SHUTDOWN] SIGINT
+2025-10-24T19:56:04.074Z [READY] Si Dukun Jawa#2586 using gemini-2.0-flash as Si Dukun Jawa
+2025-10-24T19:56:32.390Z [IN] 845072112540712990/barbss__ :: wassup dukun
+2025-10-24T19:56:32.897Z [LLM>REQ] wassup dukun
+2025-10-24T19:56:32.899Z [ERR] ReferenceError :: MAX_LINES is not defined
+2025-10-24T19:56:33.656Z [OUT] error-reply sent
+2025-10-24T19:56:41.869Z [IN] 845072112540712990/barbss__ :: heh dukun
+2025-10-24T19:56:42.387Z [LLM>REQ] heh dukun
+2025-10-24T19:56:42.388Z [ERR] ReferenceError :: MAX_LINES is not defined
+2025-10-24T19:56:43.043Z [OUT] error-reply sent
+2025-10-24T19:58:18.957Z [SHUTDOWN] SIGINT
+2025-10-24T19:58:51.642Z [READY] Si Dukun Jawa#2586 using gemini-2.0-flash as Si Dukun Jawa
+2025-10-24T19:59:01.582Z [IN] 845072112540712990/barbss__ :: Hai dukun
+2025-10-24T19:59:02.094Z [LLM>REQ] Hai dukun
+2025-10-24T19:59:04.991Z [LLM>RES] Sugeng rawuh! Ada yang bisa Si Dukun bantu hari ini? Mboten usah sungkan, curhat mawon. Kadang, masalah niku koyo ulo: dawa yen ora ditangani. Tapi ojo kuwatir, bareng-bareng awake dewe golek dalane.
+…
+2025-10-24T19:59:05.441Z [OUT] replied 1 chunk(s)
+2025-10-24T19:59:41.102Z [IN] 845072112540712990/barbss__ :: primbon 23 april 2005
+2025-10-24T19:59:41.621Z [LLM>REQ] primbon 23 april 2005
+2025-10-24T19:59:44.078Z [LLM>RES] Wah, tanggal lahir yang menarik. 23 April 2005, wetonnya Sabtu Wage. Orangnya cenderung sabar, teliti, tapi kadang kurang percaya diri. Punya bakat terpendam yang perlu digali. Rezekinya lumayan, asal…
+2025-10-24T19:59:44.502Z [OUT] replied 1 chunk(s)
+2025-10-24T20:07:18.294Z [SHUTDOWN] SIGINT
+2025-10-24T20:07:33.669Z [READY] Si Dukun Jawa#2586 using gemini-2.0-flash as Si Dukun Jawa
+2025-10-24T20:07:51.408Z [IN] 845072112540712990/barbss__ :: hey jawa
+2025-10-24T20:07:51.998Z [LLM>REQ] hey jawa
+2025-10-24T20:07:54.655Z [LLM>RES] Sugeng rawuh! (Selamat datang!) Ada apa gerangan yang bisa Si Dukun Jawa bantu hari ini? Apakah hati sedang gundah, rezeki seret, atau butuh pitutur luhur? Ceritakan saja, siapa tahu ada ramuan atau m…
+2025-10-24T20:07:55.088Z [OUT] replied 1 chunk(s)
+2025-10-24T20:08:53.699Z [SHUTDOWN] SIGINT
+2025-10-24T20:09:02.126Z [READY] Si Dukun Jawa#2586 using gemini-2.0-flash as Si Dukun Jawa
+2025-10-24T20:09:08.040Z [IN] 845072112540712990/barbss__ :: eh jawa
+2025-10-24T20:09:08.506Z [LLM>REQ] eh jawa
+2025-10-24T20:09:10.478Z [LLM>RES] Sugeng rawuh! (Selamat datang!) Ada yang bisa Si Dukun Jawa bantu? Mungkin mencari sedikit ketenangan batin, petunjuk arah hidup, atau sekadar obrolan ringan? Jangan sungkan, niat baik selalu disambut…
+2025-10-24T20:09:10.910Z [OUT] replied 1 chunk(s)
+2025-10-24T20:09:20.062Z [SHUTDOWN] SIGINT
+2025-10-24T20:09:33.551Z [READY] Si Dukun Jawa#2586 using gemini-2.0-flash as Si Dukun Jawa
+2025-10-24T20:09:37.997Z [IN] 845072112540712990/barbss__ :: oi jawa
+2025-10-24T20:09:38.620Z [LLM>REQ] oi jawa
+2025-10-24T20:09:41.087Z [LLM>RES] Oi, anak muda! Ada apa gerangan memanggil Si Dukun Jawa ini? Jangan ragu, sampaikan saja uneg-unegmu. Barangkali ada ganjalan di hati, keruwetan di pikiran, atau sekadar butuh pitutur. Insya Allah, Si…
+2025-10-24T20:09:41.733Z [OUT] replied 1 chunk(s)
+2025-10-24T20:11:02.201Z [IN] 845072112540712990/barbss__ :: primbon 23 april 2005
+2025-10-24T20:11:03.100Z [LLM>REQ] primbon 23 april 2005
+2025-10-24T20:11:06.213Z [LLM>RES] Wah, cah bagus/ayu lahir tanggal 23 April 2005... Primbon Jawa melihat ini sebagai sosok yang *kuat pendirian*, kadang keras kepala tapi sebenarnya *penyayang*. Rejekinya lumayan, asal *tidak malas*. …
+2025-10-24T20:11:06.696Z [OUT] replied 1 chunk(s)
