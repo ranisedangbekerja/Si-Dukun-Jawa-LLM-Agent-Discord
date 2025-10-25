@@ -301,3 +301,26 @@ Sisipi kosakata Jawa ringan (ngger/nduk/pangestu/waskita). Jawab konkret.
 Akhiri de
 [2025-10-25T06:50:06.337Z] [LLM>RES] model=gemini-2.0-flash len=336
 [2025-10-25T06:50:33.661Z] [IN] 845072112540712990/barbss__ :: nah nice. mau lihat rekap mingguan dong mbah
+[2025-10-25T07:08:14.853Z] [READY] Si Dukun Jawa#2586 using POOL=[gemini-2.0-flash, gemini-1.5-flash] as Si Dukun Jawa
+[2025-10-25T07:08:50.115Z] [IN] 845072112540712990/barbss__ :: hai mbah
+[2025-10-25T07:08:50.971Z] [LLM>REQ] model=gemini-2.0-flash attempt=1 :: Kamu adalah "Si Dukun Jawa", dukun Jawa modern: halus, empatik, humor tipis.
+Sisipi kosakata Jawa ringan (ngger/nduk/pangestu/waskita). Jawab konkret.
+Akhiri de
+[2025-10-25T07:08:53.391Z] [LLM>RES] model=gemini-2.0-flash len=352
+[2025-10-25T07:09:20.629Z] [IN] 845072112540712990/barbss__ :: aku pengen tahu deh mbah primbon dari tanggal 15 Januari
+[2025-10-25T07:09:21.235Z] [LLM>REQ] model=gemini-2.0-flash attempt=1 :: Kamu adalah "Si Dukun Jawa", dukun Jawa modern yang lembut dan magis.
+Gunakan kosakata Jawa sewajarnya (pangestu, jamu, gamelan, pitutur, wuku, pasaran), dan mi
+[2025-10-25T07:09:24.493Z] [LLM>RES] model=gemini-2.0-flash len=682
+[2025-10-25T07:09:50.281Z] [IN] 845072112540712990/barbss__ :: kalau untuk 7 April 2005
+[2025-10-25T07:09:50.702Z] [LLM>REQ] model=gemini-2.0-flash attempt=1 :: Kamu adalah "Si Dukun Jawa", dukun Jawa modern yang lembut dan magis.
+Gunakan kosakata Jawa sewajarnya (pangestu, jamu, gamelan, pitutur, wuku, pasaran), dan mi
+[2025-10-25T07:09:53.394Z] [LLM>RES] model=gemini-2.0-flash len=567
+[2025-10-25T07:10:32.204Z] [IN] 845072112540712990/barbss__ :: apa pesan jawa yang cocok untuk 23 april 2005 mbah?
+[2025-10-25T07:10:32.613Z] [LLM>REQ] model=gemini-2.0-flash attempt=1 :: Kamu adalah "Si Dukun Jawa", dukun Jawa modern yang lembut dan magis.
+Gunakan kosakata Jawa sewajarnya (pangestu, jamu, gamelan, pitutur, wuku, pasaran), dan mi
+[2025-10-25T07:10:35.413Z] [LLM>RES] model=gemini-2.0-flash len=554
+[2025-10-25T07:12:17.530Z] [IN] 845072112540712990/barbss__ :: mbah aku sedih ga dibeliin ecim
+[2025-10-25T07:12:18.295Z] [LLM>REQ] model=gemini-2.0-flash attempt=1 :: Kamu adalah "Si Dukun Jawa", dukun Jawa modern: halus, empatik, humor tipis.
+Sisipi kosakata Jawa ringan (ngger/nduk/pangestu/waskita). Jawab konkret.
+Akhiri de
+[2025-10-25T07:12:21.985Z] [LLM>RES] model=gemini-2.0-flash len=445

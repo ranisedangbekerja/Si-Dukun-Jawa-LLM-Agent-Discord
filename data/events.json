@@ -229,5 +229,60 @@
     "topic": "refleksi",
     "sentiment": "net",
     "entities": "{\"hari\":null,\"pasaran\":null,\"date\":null}"
+  },
+  {
+    "user_id": "845072112540712990",
+    "ts": "2025-10-25T07:08:53.395Z",
+    "channel_id": "1428001916264124458",
+    "type": "general",
+    "text": "hai mbah",
+    "answer": "Ndhuk Nea, *cah ayu*, wah matur nuwun wis rawuh. Mbah Dukun seneng banget. Ono opo gerangan kok sowan? Ojo sungkan-sungkan, ngger. Mbah Dukun siap ndampingi, mugi-mugi *waskita* bisa paring dalan padhang. Ayo crito, *nduk*. Pangestu Mbah kanggo kowe.\n**Tindakan kecil:** Coba tarik napas dalam-dalam, rasakno sejuking angin, banjur hembuske alon-alon.",
+    "topic": "refleksi",
+    "sentiment": "net",
+    "entities": "{\"hari\":null,\"pasaran\":null,\"date\":null}"
+  },
+  {
+    "user_id": "845072112540712990",
+    "ts": "2025-10-25T07:09:24.494Z",
+    "channel_id": "1428001916264124458",
+    "type": "primbon",
+    "text": "aku pengen tahu deh mbah primbon dari tanggal 15 Januari",
+    "answer": "Ndhuk Nea, cah ayu, pangestu selalu menyertaimu. Dari tanggal 15 Januari itu, kita bisa lihat sedikit gambaran lewat primbon.\n**Tafsiran:** Ndhuk Nea, cah ayu yang lahir di tanggal itu cenderung punya watak *sumeh* (ramah) dan punya intuisi yang kuat. Rejekimu insyaAllah lancar, asal kamu terus berusaha dan *eling* (ingat) pada yang Maha Kuasa. Energinya baik untuk memulai hal baru, tapi jangan lupa istirahat ya, Ndhuk.\n**Pitutur:** \"*Alon-alon waton kelakon*\", Ndhuk. Segala sesuatu butuh proses, jangan terburu-buru.\n**Tindakan Kecil:** Hari ini, coba luangkan waktu sejenak untuk mendengarkan alunan gamelan, biar hatimu tentrem, Ndhuk. Semoga *rahayu* selalu menyertaimu.",
+    "topic": "weton",
+    "sentiment": "net",
+    "entities": "{\"hari\":null,\"pasaran\":null,\"date\":null}"
+  },
+  {
+    "user_id": "845072112540712990",
+    "ts": "2025-10-25T07:09:53.395Z",
+    "channel_id": "1428001916264124458",
+    "type": "primbon",
+    "text": "kalau untuk 7 April 2005",
+    "answer": "Ndhuk Nea, cah ayu, mari tak coba lihat ya...\n**Tafsiran**: Tanggal 7 April 2005 itu wetonnya Kamis Wage. Kamis itu *sumeh*, murah hati, tapi Wage sering *nggragas*, kurang sabar. Rejeki lumayan, tapi kudu ati-ati pengeluaran. Jodoh ya apik wae, sing penting saling pengertian lan nrima. Energi hari ini alus, cocok kanggo ngademke pikiran.\n**Pitutur**: *\"Alon-alon waton kelakon\"* – Sabar, tekun, pasti tercapai cita-cita.\n**Tindakan kecil**: Coba Ndhuk Nea dengerin gamelan sebentar, biar hatinya adem dan tentrem. Barangkali sambil minum jamu, ben tambah seger.",
+    "topic": "weton",
+    "sentiment": "net",
+    "entities": "{\"hari\":null,\"pasaran\":null,\"date\":\"7 April 2005\"}"
+  },
+  {
+    "user_id": "845072112540712990",
+    "ts": "2025-10-25T07:10:35.413Z",
+    "channel_id": "1428001916264124458",
+    "type": "primbon",
+    "text": "apa pesan jawa yang cocok untuk 23 april 2005 mbah?",
+    "answer": "Ndhuk Nea, cah ayu...\nTanggal 23 April 2005 itu weton Sabtu Pon. Weton iki nggawa watak *momong* lan *ngayomi*. Rejekimu lumayan apik, nanging kudu sregep nyambut gawe. Jodho bakal teka yen kowe wis mantep ati lan pikiran. Energi dina iki apik kanggo miwiti proyek anyar utawa ngrampungke sing wis ketunda.\n*Ala becik ketara, yen wis dadi gegaran*. Artinya, baik buruknya akan terlihat jelas setelah menjadi pelajaran atau pengalaman.\nDina iki, coba sedekah marang wong sing luwih butuh, senajan mung sithik. Iku bisa narik rejeki lan katentreman ati.",
+    "topic": "weton",
+    "sentiment": "net",
+    "entities": "{\"hari\":null,\"pasaran\":null,\"date\":\"23 april 2005\"}"
+  },
+  {
+    "user_id": "845072112540712990",
+    "ts": "2025-10-25T07:12:21.986Z",
+    "channel_id": "1428001916264124458",
+    "type": "general",
+    "text": "mbah aku sedih ga dibeliin ecim",
+    "answer": "Waaah, Ndhuk Nea *cah ayu*, sedih ora keturutan iku pancen ora enak rasane. Mbah ngerti kok. Tapi *ngger*, nangis mergo ecim kuwi ora patut.\nSedih kuwi lumrah, nanging ojo nganti ndadeake atimu peteng. Eling, isih akeh liyan sing luwih penting tinimbang ecim. Mbah *waskita*, Ndhuk Nea kuwi bocah pinter lan kuat.\n*Pangestu* Mbah kanggo Ndhuk Nea.\n**Tindakan kecil:** Coba gawe ecim dewe, Ndhuk. Sopo ngerti malah luwih penak lan marem atimu.",
+    "topic": "refleksi",
+    "sentiment": "neg",
+    "entities": "{\"hari\":null,\"pasaran\":null,\"date\":null}"
   }
 ]
