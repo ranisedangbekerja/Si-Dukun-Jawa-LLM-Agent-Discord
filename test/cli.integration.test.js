@@ -33,17 +33,21 @@ test('CLI starts and displays greeting text', async () => {
   assert.match(result, /Si Dukun Jawa|dukun/i, 'Greeting tidak muncul');
 });
 
-/* NEW – menggantikan versi lama yang terlalu ketat */
+
 test('CLI responds with weton interpretation correctly', async () => {
   const result = await runCLI('Primbon Selasa Kliwon');
   if (API_KEY) {
-    // lebih inklusif sesuai jawaban nyata kamu
-    assert.match(result, /(selasa|kliwon|watak|rejeki|jodoh|doa|pangapunten|weton|primbon)/i);
-  } else {
-    // stub mode: cukup pastikan CLI hidup
-    assert.ok(/Dukun>/.test(result), 'CLI tidak berjalan di stub mode');
+    assert.match(
+      result,
+      /(primbon|weton|selasa|kliwon|hari|nasihat|pitutur|rejeki|watak|pangestu)/i,
+      'Respons tidak mengandung kata khas primbon'
+    );
+  } 
+  else {
+    assert.ok(result && result.includes('Dukun>'), 'CLI tidak berjalan dengan benar di stub mode');
   }
 });
+
 
 test('CLI logs file is created after interaction', async () => {
   await runCLI('Primbon Kamis Pahing');

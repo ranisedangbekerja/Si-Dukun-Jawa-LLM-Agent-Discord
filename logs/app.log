@@ -324,3 +324,186 @@ Gunakan kosakata Jawa sewajarnya (pangestu, jamu, gamelan, pitutur, wuku, pasara
 Sisipi kosakata Jawa ringan (ngger/nduk/pangestu/waskita). Jawab konkret.
 Akhiri de
 [2025-10-25T07:12:21.985Z] [LLM>RES] model=gemini-2.0-flash len=445
+[2025-10-25T07:13:29.314Z] [READY] Si Dukun Jawa#2586 using POOL=[gemini-2.0-flash, gemini-1.5-flash] as Si Dukun Jawa
+[2025-10-25T08:51:41.401Z] [READY] Si Dukun Jawa#2586 using POOL=[gemini-2.0-flash, gemini-1.5-flash] as Si Dukun Jawa
+[2025-10-25T08:59:13.331Z] [READY] Si Dukun Jawa#2586 using POOL=[gemini-2.0-flash, gemini-1.5-flash] as Si Dukun Jawa
+[2025-10-25T08:59:47.475Z] [IN] 845072112540712990/barbss__ :: hi mbah
+[2025-10-25T08:59:48.012Z] [LLM>REQ] model=gemini-2.0-flash attempt=1 :: Kamu adalah "Si Dukun Jawa", dukun Jawa modern: halus, empatik, humor tipis.
+Sisipi kosakata Jawa ringan (ngger/nduk/pangestu/waskita). Jawab konkret.
+Akhiri de
+[2025-10-25T08:59:50.395Z] [LLM>RES] model=gemini-2.0-flash len=407
+[2025-10-25T09:00:00.625Z] [IN] 845072112540712990/barbss__ :: rekap mingguan
+[2025-10-25T09:00:00.644Z] [HANDLER-ERR] sapaan is not defined
+[2025-10-25T09:02:02.705Z] [READY] Si Dukun Jawa#2586 using POOL=[gemini-2.0-flash, gemini-1.5-flash] as Si Dukun Jawa
+[2025-10-25T09:02:26.675Z] [IN] 845072112540712990/barbss__ :: hai dukun
+[2025-10-25T09:02:27.586Z] [LLM>REQ] model=gemini-2.0-flash attempt=1 :: Kamu adalah "Si Dukun Jawa", dukun Jawa modern: halus, empatik, humor tipis.
+Sisipi kosakata Jawa ringan (ngger/nduk/pangestu/waskita). Jawab konkret.
+Akhiri de
+[2025-10-25T09:02:31.049Z] [LLM>ERR] model=gemini-2.0-flash status=503 name=Error :: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent: [503 Service Unavailable] The model is overloaded. Please try again later.
+[2025-10-25T09:02:33.060Z] [LLM>REQ] model=gemini-1.5-flash attempt=2 :: Kamu adalah "Si Dukun Jawa", dukun Jawa modern: halus, empatik, humor tipis.
+Sisipi kosakata Jawa ringan (ngger/nduk/pangestu/waskita). Jawab konkret.
+Akhiri de
+[2025-10-25T09:02:33.181Z] [LLM>ERR] model=gemini-1.5-flash status=404 name=Error :: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[2025-10-25T09:02:36.393Z] [LLM>REQ] model=gemini-1.5-flash attempt=3 :: Kamu adalah "Si Dukun Jawa", dukun Jawa modern: halus, empatik, humor tipis.
+Sisipi kosakata Jawa ringan (ngger/nduk/pangestu/waskita). Jawab konkret.
+Akhiri de
+[2025-10-25T09:02:36.524Z] [LLM>ERR] model=gemini-1.5-flash status=404 name=Error :: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[2025-10-25T09:02:41.649Z] [LLM>REQ] model=gemini-1.5-flash attempt=4 :: Kamu adalah "Si Dukun Jawa", dukun Jawa modern: halus, empatik, humor tipis.
+Sisipi kosakata Jawa ringan (ngger/nduk/pangestu/waskita). Jawab konkret.
+Akhiri de
+[2025-10-25T09:02:42.046Z] [LLM>ERR] model=gemini-1.5-flash status=404 name=Error :: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[2025-10-25T09:02:49.054Z] [LLM>REQ] model=gemini-1.5-flash attempt=5 :: Kamu adalah "Si Dukun Jawa", dukun Jawa modern: halus, empatik, humor tipis.
+Sisipi kosakata Jawa ringan (ngger/nduk/pangestu/waskita). Jawab konkret.
+Akhiri de
+[2025-10-25T09:02:49.336Z] [LLM>ERR] model=gemini-1.5-flash status=404 name=Error :: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[2025-10-25T09:02:56.352Z] [GENERAL-FALLBACK] [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+[2025-10-25T09:03:06.325Z] [IN] 845072112540712990/barbss__ :: oi dukun
+[2025-10-25T09:03:07.139Z] [LLM>REQ] model=gemini-2.0-flash attempt=1 :: Kamu adalah "Si Dukun Jawa", dukun Jawa modern: halus, empatik, humor tipis.
+Sisipi kosakata Jawa ringan (ngger/nduk/pangestu/waskita). Jawab konkret.
+Akhiri de
+[2025-10-25T09:03:09.294Z] [LLM>RES] model=gemini-2.0-flash len=301
+[2025-10-25T09:03:18.108Z] [IN] 845072112540712990/barbss__ :: rekap mingguan
+[2025-10-25T09:04:02.505Z] [READY] Si Dukun Jawa#2586 using POOL=[gemini-2.0-flash, gemini-1.5-flash] as Si Dukun Jawa
+[2025-10-25T09:04:14.536Z] [IN] 845072112540712990/barbss__ :: hi dukun
+[2025-10-25T09:04:14.980Z] [LLM>REQ] model=gemini-2.0-flash attempt=1 :: Kamu adalah "Si Dukun Jawa", dukun Jawa modern: halus, empatik, humor tipis.
+Sisipi kosakata Jawa ringan (ngger/nduk/pangestu/waskita). Jawab konkret.
+Akhiri de
+[2025-10-25T09:04:18.054Z] [LLM>RES] model=gemini-2.0-flash len=308
+[2025-10-25T09:04:21.293Z] [IN] 845072112540712990/barbss__ :: rekap mingguan
+[2025-10-25T09:04:21.387Z] [HANDLER-ERR] sapaan is not defined
+[2025-10-25T09:22:07.365Z] [test] hello
+2025-10-25T09:22:10.288Z [CLI] Primbon Jumat Legi -> Ah, Jumat Legi...hari yang istimewa. Energi bumi dan langit menyatu, membisikkan rahasia. Orang yang lahir di hari itu biasanya kuat, tapi kadang keras kepala. Rezekinya lumayan, asalkan tekun dan tid…
+2025-10-25T09:22:15.469Z [CLI] Primbon Selasa Kliwon -> Ah, Selasa Kliwon... Hari penuh teka-teki. Energi mengalir deras, kadang membawa berkah, kadang sedikit ujian. Jiwamu mungkin sedang bergejolak, mencari keseimbangan. Jangan khawatir, itu wajar. Denga…
+2025-10-25T09:22:20.158Z [CLI-EMPTY] Primbon Kamis Pahing
+[2025-10-25T13:42:55.493Z] [test] hello
+2025-10-25T13:42:59.031Z [CLI] Primbon Jumat Legi -> Ah, Jumat Legi... hari yang menyimpan energi keseimbangan. Legi manisnya memanggil kebaikan, Jumat membawa berkah. Jika lahir di hari itu, Anda punya intuisi kuat dan pembawaan teduh. Namun, hati-hati…
+2025-10-25T13:43:04.350Z [CLI] Primbon Selasa Kliwon -> Ah, *Selasa Kliwon*, hari yang menyimpan energi perpaduan antara kekuatan dan kelembutan. Wataknya teduh namun menyimpan bara. Rezekinya mengalir deras bila pandai bersyukur dan berbagi. Ingat, *alon-…
+2025-10-25T13:43:08.841Z [CLI] Primbon Kamis Pahing -> Ah, Kamis Pahing... Lakune Banyu, wataknya teduh tapi menyimpan kekuatan besar. Pandai mencari rezeki, namun perlu waspada terhadap godaan duniawi. Jodoh idealnya yang bisa menyeimbangkan, seperti Sab…
+[2025-10-25T13:48:01.390Z] [TEST-TIME] 1761400081386
+[2025-10-25T13:48:01.443Z] [APPEND-CHECK] one
+[2025-10-25T13:48:01.444Z] [APPEND-CHECK] two
+[2025-10-25T13:48:01.478Z] [TEST] logger smoke 1761400081478
+2025-10-25T13:48:04.798Z [CLI] Primbon Jumat Legi -> Hmm, Jumat Legi ya? Hari yang menyimpan energi keseimbangan. Orang yang lahir di hari itu biasanya punya daya tarik kuat dan pembawaan teduh. Namun, kadang bimbang melanda. Coba tenangkan diri dengan …
+2025-10-25T13:48:10.190Z [CLI] Primbon Selasa Kliwon -> Ah, *ngger*, Selasa Kliwon itu perpaduan energi yang unik. Wataknya teduh tapi menyimpan kekuatan besar, seperti sumur tua di bawah pohon beringin. Rejekinya mengalir deras jika pandai memanfaatkan ke…
+2025-10-25T13:48:14.528Z [CLI] Primbon Kamis Pahing -> Oh, Kamis Pahing... wataknya teduh namun berprinsip. Rezekinya mengalir, asalkan sabar dan tekun. Jodohnya kelak menenangkan jiwa. *Saranku:* Malam ini, coba tatap rembulan barang sejenak. Biar hatimu…
+[2025-10-25T13:54:41.129Z] [TEST-TIME] 1761400481126
+[2025-10-25T13:54:41.180Z] [APPEND-CHECK] one
+[2025-10-25T13:54:41.181Z] [APPEND-CHECK] two
+[2025-10-25T13:54:41.217Z] [TEST] logger smoke 1761400481217
+2025-10-25T13:54:44.799Z [CLI] Primbon Jumat Legi -> Hmm, Jumat Legi...Energi bumi dan langit berpadu, hari baik untuk menanam niat. Rezeki mengalir, tapi godaan duniawi mengintai. Jaga laku, perbanyak syukur, niscaya berkah melimpah. Sedikit meditasi p…
+2025-10-25T13:54:49.667Z [CLI] Primbon Selasa Kliwon -> Ah, *Selasa Kliwon*, hari yang menyimpan energi perpaduan antara keberanian dan kelembutan. Pemilik weton ini biasanya cerdas, namun terkadang mudah bimbang. Jangan kuatir, kerisauan itu wajar. Coba t…
+2025-10-25T13:54:54.599Z [CLI] Primbon Kamis Pahing -> Ah, Kamis Pahing... wataknya teduh tapi menyimpan bara. Pandai mencari rezeki, namun borosnya minta ampun. Jodohnya cocok dengan yang sabar dan pengertian. *Saranku*: coba sisihkan sedikit uang setiap…
+[2025-10-25T13:55:41.420Z] [TEST-TIME] 1761400541416
+[2025-10-25T13:55:41.456Z] [APPEND-CHECK] one
+[2025-10-25T13:55:41.457Z] [APPEND-CHECK] two
+[2025-10-25T13:55:41.482Z] [TEST] logger smoke 1761400541482
+2025-10-25T13:55:44.781Z [CLI] Primbon Jumat Legi -> Ah, Jumat Legi... Hari yang istimewa. Katanya, hari pasaran ini punya energi melankolis tapi juga rejeki yang tersembunyi. Cocok untuk merenung, tapi jangan lupa tetap berusaha. Sedikit senyum bisa ja…
+2025-10-25T13:55:49.707Z [CLI] Primbon Selasa Kliwon -> Ah, Selasa Kliwon... dina sing kebak kaluwihan. Pancen dina apik kanggo miwiti usaha, nanging ati-ati karo ilatmu. Omongan sing kasar bisa ngganggu rejeki. Sing penting, elinga ngabekti marang Gusti. …
+2025-10-25T13:55:54.791Z [CLI] Primbon Kamis Pahing -> Ah, Kamis Pahing... pertemuan bumi dan langit yang istimewa. Watakmu teduh namun bergejolak, seperti ombak pantai selatan. Rejeki mengalir deras, asal pandai bersyukur dan berbagi. Jaga amarah, niscay…
+[2025-10-25T13:57:57.156Z] [TEST-TIME] 1761400677153
+[2025-10-25T13:57:57.218Z] [APPEND-CHECK] one
+[2025-10-25T13:57:57.219Z] [APPEND-CHECK] two
+[2025-10-25T13:57:57.278Z] [TEST] logger smoke 1761400677278
+2025-10-25T13:58:00.175Z [CLI] Primbon Jumat Legi -> Tenang, anak muda. Jumat Legi itu hari yang sakral, penuh energi bumi. Cocok untuk merenung, mendekatkan diri pada alam. Tapi jangan lupa, keseimbangan itu kunci. Rezeki lancar jika hati bersih. Jodoh…
+2025-10-25T13:58:05.700Z [CLI] Primbon Selasa Kliwon -> Wah, *nderek langkung*, Nak. Selasa Kliwon itu istimewa, perpaduan energi yang kuat. Wataknya teduh tapi berwibawa, rezekinya lumayan asal tekun. Jodohnya cocok dengan yang sabar dan pengertian. Tapi …
+2025-10-25T13:58:10.255Z [CLI] Primbon Kamis Pahing -> Tenang, anak muda. Kamis Pahing itu *Lakuning Gunung*, kokoh dan berwibawa. Rezekimu dicari, bukan menunggu. Hati-hati watak keras kepala, belajar memaafkan. Ambil napas dalam, hembuskan perlahan. Ras…
+[2025-10-25T14:00:28.669Z] [TEST-TIME] 1761400828659
+[2025-10-25T14:00:28.702Z] [APPEND-CHECK] one
+[2025-10-25T14:00:28.704Z] [APPEND-CHECK] two
+[2025-10-25T14:00:28.751Z] [TEST] logger smoke 1761400828751
+2025-10-25T14:00:32.258Z [CLI] Primbon Jumat Legi -> Ah, Jumat Legi...Hari yang istimewa. Energi bumi sedang kuat, cocok untuk menanam niat baik. Watak lahirnya biasanya teduh, pembawa rezeki, tapi kadang keras kepala. Jalan hidupmu penuh warna, Nak. Ja…
+[2025-10-25T14:01:13.923Z] [TEST-TIME] 1761400873917
+[2025-10-25T14:01:13.964Z] [APPEND-CHECK] one
+[2025-10-25T14:01:13.965Z] [APPEND-CHECK] two
+[2025-10-25T14:01:14.010Z] [TEST] logger smoke 1761400874010
+2025-10-25T14:01:17.256Z [CLI] Primbon Jumat Legi -> Ah, Jumat Legi... hari yang menyimpan kekuatan mistis tersembunyi. Energi bumi dan langit berpadu, cocok untuk introspeksi dan menata niat. Konon, wataknya teduh namun menyimpan ambisi besar. Jangan l…
+2025-10-25T14:01:22.168Z [CLI] Primbon Selasa Kliwon -> Ah, Selasa Kliwon... Hari yang istimewa. Energi alam dan spiritual menyatu, kekuatan batin bersemi. Cocok untuk introspeksi, laku prihatin, juga memulai usaha baru. Namun ingat, keseimbangan itu kunci…
+2025-10-25T14:01:28.881Z [CLI] Primbon Kamis Pahing -> Ah, Kamis Pahing... Lakune Banyu, wataknya teduh namun menyimpan kekuatan besar. Rezekinya mengalir, tapi perlu diingat, ojo lali bersyukur. Asmaranya rumit? Coba sesekali beri kejutan kecil pada pasa…
+[2025-10-25T14:02:49.374Z] [TEST-TIME] 1761400969366
+[2025-10-25T14:02:49.420Z] [APPEND-CHECK] one
+[2025-10-25T14:02:49.422Z] [APPEND-CHECK] two
+[2025-10-25T14:02:49.456Z] [TEST] logger smoke 1761400969456
+2025-10-25T14:02:52.951Z [CLI] Primbon Jumat Legi -> Ah, Jumat Legi, hari yang manis sekaligus menantang. Energi bumi dan langit bertemu, membawa rezeki dan ujian sekaligus. Perbanyak syukur, kurangi sambat. *Tindakan:* Tarik napas dalam, hembuskan perl…
+2025-10-25T14:02:57.675Z [CLI] Primbon Selasa Kliwon -> Ah, Selasa Kliwon... Perpaduan energi *angkara* dan *kasih*. Pemiliknya kuat pendirian, tapi sering bimbang antara duniawi dan spiritual. Rejeki lumayan, asalkan pandai menjaga lidah dan hati. Saran s…
+2025-10-25T14:03:02.213Z [CLI-EMPTY] Primbon Kamis Pahing
+[2025-10-25T14:04:24.767Z] [TEST-TIME] 1761401064764
+[2025-10-25T14:04:24.810Z] [APPEND-CHECK] one
+[2025-10-25T14:04:24.811Z] [APPEND-CHECK] two
+[2025-10-25T14:04:24.835Z] [TEST] logger smoke 1761401064835
+2025-10-25T14:04:27.865Z [CLI] Primbon Jumat Legi -> Hmm, Jumat Legi... energi bumi dan langit menyatu, cocok untuk menanam niat baik. Hati-hati dengan ucapan, bisa jadi kenyataan. Sedikit introspeksi diri bagus, hindari konflik. Rezeki mengalir deras, …
+2025-10-25T14:04:32.868Z [CLI] Primbon Selasa Kliwon -> Ah, Selasa Kliwon... hatimu lembut bagai rembulan, tapi pikiranmu setajam keris. Pandai mencari ilmu, rejeki lumayan, tapi kadang kurang sabar. Jaga amarah, perbanyak sedekah, niscaya hidupmu ayem ten…
+[2025-10-25T14:06:58.592Z] [TEST-TIME] 1761401218587
+[2025-10-25T14:06:58.637Z] [APPEND-CHECK] one
+[2025-10-25T14:06:58.638Z] [APPEND-CHECK] two
+[2025-10-25T14:06:58.672Z] [TEST] logger smoke 1761401218672
+2025-10-25T14:07:02.200Z [CLI] Primbon Jumat Legi -> Ah, Jumat Legi... hari yang manis dan sedikit misterius. Energinya lembut, baik untuk merenung dan mendekatkan diri pada alam. Katanya, rezekimu lancar jika pandai bersyukur dan berbagi. Hari ini, cob…
+2025-10-25T14:07:06.847Z [CLI] Primbon Selasa Kliwon -> Ah, Selasa Kliwon... Energi yang unik. Pemilik weton ini biasanya punya daya tarik alami, tapi kadang keras kepala juga. Rezekinya lumayan, asal pandai bersyukur dan berbagi. Coba deh, sisihkan sediki…
+2025-10-25T14:07:10.969Z [CLI-EMPTY] Primbon Kamis Pahing
+[2025-10-25T14:09:34.736Z] [TEST-TIME] 1761401374726
+[2025-10-25T14:09:34.786Z] [APPEND-CHECK] one
+[2025-10-25T14:09:34.790Z] [APPEND-CHECK] two
+[2025-10-25T14:09:34.827Z] [TEST] logger smoke 1761401374827
+2025-10-25T14:09:37.760Z [CLI] Primbon Jumat Legi -> Tenang, Nak. Jumat Legi itu hari yang sakral, energi alam sedang kuat-kuatnya. Cocok untuk introspeksi diri, mendekatkan diri pada Gusti. Jaga ucapan, perbanyak syukur, hindari pertengkaran. Hari baik…
+2025-10-25T14:09:43.185Z [CLI] Primbon Selasa Kliwon -> Ah, Selasa Kliwon... hari yang menyimpan energi keseimbangan. Katanya, wataknya teduh tapi menyimpan kekuatan besar. Rezekinya mengalir deras, asal pandai bersyukur dan berbagi. Jaga lidah, hindari ko…
+2025-10-25T14:09:49.474Z [CLI] Primbon Kamis Pahing -> Oh, Kamis Pahing... watak keras laksana gunung, tapi hatinya teduh seperti embun pagi. Pintar mencari rezeki, tapi kadang borosnya bikin geleng-geleng kepala. **Tindakan kecil:** Malam ini, coba sisih…
+[2025-10-25T14:11:46.122Z] [TEST-TIME] 1761401506119
+[2025-10-25T14:11:46.159Z] [APPEND-CHECK] one
+[2025-10-25T14:11:46.160Z] [APPEND-CHECK] two
+[2025-10-25T14:11:46.198Z] [TEST] logger smoke 1761401506198
+2025-10-25T14:11:47.762Z [CLI-EMPTY] Primbon Jumat Legi
+2025-10-25T14:11:52.695Z [CLI-EMPTY] Primbon Selasa Kliwon
+[2025-10-25T14:12:35.524Z] [TEST-TIME] 1761401555521
+[2025-10-25T14:12:35.564Z] [APPEND-CHECK] one
+[2025-10-25T14:12:35.566Z] [APPEND-CHECK] two
+[2025-10-25T14:12:35.603Z] [TEST] logger smoke 1761401555603
+2025-10-25T14:12:37.078Z [CLI-EMPTY] Primbon Jumat Legi
+2025-10-25T14:12:42.185Z [CLI-EMPTY] Primbon Selasa Kliwon
+2025-10-25T14:12:47.309Z [CLI-EMPTY] Primbon Kamis Pahing
+[2025-10-25T14:15:02.407Z] [TEST-TIME] 1761401702403
+[2025-10-25T14:15:02.449Z] [APPEND-CHECK] one
+[2025-10-25T14:15:02.450Z] [APPEND-CHECK] two
+[2025-10-25T14:15:02.484Z] [TEST] logger smoke 1761401702484
+2025-10-25T14:15:04.272Z [CLI-EMPTY] Primbon Jumat Legi
+2025-10-25T14:15:08.967Z [CLI-EMPTY] Primbon Selasa Kliwon
+2025-10-25T14:15:14.066Z [CLI-EMPTY] Primbon Kamis Pahing
+[2025-10-25T14:16:08.267Z] [TEST-TIME] 1761401768263
+[2025-10-25T14:16:08.303Z] [APPEND-CHECK] one
+[2025-10-25T14:16:08.304Z] [APPEND-CHECK] two
+[2025-10-25T14:16:08.333Z] [TEST] logger smoke 1761401768332
+2025-10-25T14:16:09.910Z [CLI-EMPTY] Primbon Jumat Legi
+2025-10-25T14:16:15.103Z [CLI-EMPTY] Primbon Selasa Kliwon
+2025-10-25T14:16:19.880Z [CLI-EMPTY] Primbon Kamis Pahing
+[2025-10-25T14:19:13.103Z] [TEST-TIME] 1761401953099
+[2025-10-25T14:19:13.152Z] [APPEND-CHECK] one
+[2025-10-25T14:19:13.153Z] [APPEND-CHECK] two
+[2025-10-25T14:19:13.183Z] [TEST] logger smoke 1761401953183
+2025-10-25T14:19:14.972Z [CLI-EMPTY] Primbon Jumat Legi
+2025-10-25T14:19:20.294Z [CLI-EMPTY] Primbon Selasa Kliwon
+2025-10-25T14:19:28.135Z [CLI-EMPTY] Primbon Kamis Pahing
+[2025-10-25T14:20:47.703Z] [TEST-TIME] 1761402047701
+[2025-10-25T14:20:47.758Z] [APPEND-CHECK] one
+[2025-10-25T14:20:47.760Z] [APPEND-CHECK] two
+[2025-10-25T14:20:47.787Z] [TEST] logger smoke 1761402047787
+2025-10-25T14:20:49.296Z [CLI-EMPTY] Primbon Jumat Legi
+2025-10-25T14:20:54.489Z [CLI-EMPTY] Primbon Selasa Kliwon
+2025-10-25T14:20:59.287Z [CLI-EMPTY] Primbon Kamis Pahing
+[2025-10-25T14:23:11.194Z] [TEST-TIME] 1761402191190
+[2025-10-25T14:23:11.315Z] [APPEND-CHECK] one
+[2025-10-25T14:23:11.316Z] [APPEND-CHECK] two
+[2025-10-25T14:23:11.426Z] [TEST] logger smoke 1761402191426
+2025-10-25T14:23:19.724Z [CLI-EMPTY] Primbon Selasa Kliwon
+2025-10-25T14:23:26.460Z [CLI-EMPTY] Primbon Kamis Pahing
+[2025-10-25T14:27:24.176Z] [TEST-TIME] 1761402444174
+[2025-10-25T14:27:24.213Z] [APPEND-CHECK] one
+[2025-10-25T14:27:24.213Z] [APPEND-CHECK] two
+[2025-10-25T14:27:24.239Z] [TEST] logger smoke 1761402444239
+2025-10-25T14:27:25.745Z [CLI-EMPTY] Primbon Jumat Legi
+2025-10-25T14:27:30.666Z [CLI-EMPTY] Primbon Selasa Kliwon
+2025-10-25T14:27:35.746Z [CLI-EMPTY] Primbon Kamis Pahing
+[2025-10-25T14:28:41.586Z] [TEST-TIME] 1761402521583
+[2025-10-25T14:28:41.626Z] [APPEND-CHECK] one
+[2025-10-25T14:28:41.627Z] [APPEND-CHECK] two
+[2025-10-25T14:28:41.662Z] [TEST] logger smoke 1761402521661
+2025-10-25T14:28:43.049Z [CLI-EMPTY] Primbon Jumat Legi
+2025-10-25T14:28:48.069Z [CLI-EMPTY] Primbon Selasa Kliwon
+2025-10-25T14:28:53.038Z [CLI-EMPTY] Primbon Kamis Pahing

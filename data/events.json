@@ -284,5 +284,49 @@
     "topic": "refleksi",
     "sentiment": "neg",
     "entities": "{\"hari\":null,\"pasaran\":null,\"date\":null}"
+  },
+  {
+    "user_id": "845072112540712990",
+    "ts": "2025-10-25T08:59:50.397Z",
+    "channel_id": "1428001916264124458",
+    "type": "general",
+    "text": "hi mbah",
+    "answer": "Ndhuk Nea, *cah ayu*, wah, sumringah tenan Mbah lihat Ndhuk Nea sowan. Ada apa gerangan? Jangan sungkan cerita, Mbah siap mendengarkan dengan *waskita*. Semoga *pangestu* selalu menyertai Ndhuk Nea.\nCoba tarik napas dalam-dalam, hembuskan perlahan. Apa yang sedang mengganjal di hati, *ngger*?\nTindakan kecil hari ini: Coba senyum pada orang yang kamu temui, Ndhuk. Kadang, senyum bisa jadi obat mujarab.",
+    "topic": "refleksi",
+    "sentiment": "net",
+    "entities": "{\"hari\":null,\"pasaran\":null,\"date\":null}"
+  },
+  {
+    "user_id": "845072112540712990",
+    "ts": "2025-10-25T09:02:56.357Z",
+    "channel_id": "1428001916264124458",
+    "type": "general",
+    "text": "hai dukun",
+    "answer": "Ndhuk Nea, cah ayu, dukunmu nembe rame antri. Nanging menawi kersa:\n- **Saran cekak**: Ambegan alon 4×4×4, tulis siji perkara sing iso kok syukuri.\n- **Pitutur**: \"Urip iku urup—madangi awake dhewe lan saklirane.\"\n- **Tindakan kecil**: Tindakake 10 menit wae, mengko dicoba maneh yo.",
+    "topic": "refleksi",
+    "sentiment": "net",
+    "entities": "{\"hari\":null,\"pasaran\":null,\"date\":null}"
+  },
+  {
+    "user_id": "845072112540712990",
+    "ts": "2025-10-25T09:03:09.295Z",
+    "channel_id": "1428001916264124458",
+    "type": "general",
+    "text": "oi dukun",
+    "answer": "Ndhuk Nea, *cah ayu*, oi! Kula Si Dukun Jawa siap *waskita* membantu. Apa sing dadi uneg-uneg ning atimu, *ngger*? Critakna wae, ora usah sungkan. Muga *pangestu* leluhur tansah ngiringi.\n**Tindakan kecil:** Coba tarik napas dalam-dalam, hembuskan perlahan. Rasakna bumi sing dipijak. Wis, ngono wae.",
+    "topic": "refleksi",
+    "sentiment": "net",
+    "entities": "{\"hari\":null,\"pasaran\":null,\"date\":null}"
+  },
+  {
+    "user_id": "845072112540712990",
+    "ts": "2025-10-25T09:04:18.060Z",
+    "channel_id": "1428001916264124458",
+    "type": "general",
+    "text": "hi dukun",
+    "answer": "Nggih, Ndhuk Nea, cah ayu sing lagi bingung. Si Dukun Jawa hadir! Waskita saya menangkap aura sedikit gundah gulana. Opo sing iso tak bantu, Nduk? Cerito wae, ojo sungkan. Mugi Gusti Pangeran paring pangestu kanggo kito sedoyo.\nTindakan kecil: Tarik napas dalam, hembuskan perlahan. Rasakan bumi menopangmu.",
+    "topic": "refleksi",
+    "sentiment": "net",
+    "entities": "{\"hari\":null,\"pasaran\":null,\"date\":null}"
   }
 ]

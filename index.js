@@ -1,4 +1,3 @@
-// index.js — Si Dukun Jawa (Discord) • JSON memory + auto mood + natural recap + robust retry
 import 'dotenv/config';
 import { Client, GatewayIntentBits, Partials } from 'discord.js';
 import { GoogleGenerativeAI } from '@google/generative-ai';
@@ -112,7 +111,6 @@ function capLines(text, n = MAX_LINES) {
   return lines.slice(0, n).join('\n');
 }
 
-// GANTI fungsi panggilanJawa lama kamu dengan ini
 function panggilanJawa(nameRaw = '') {
   const name = (nameRaw || '').trim();
   if (!name) return 'Ngger'; // default kalau nama kosong
@@ -120,11 +118,11 @@ function panggilanJawa(nameRaw = '') {
   const n = name.toLowerCase();
 
   // Nama yang wajib dianggap perempuan
-  const FORCE_FEMALE = new Set(['rani', 'barbara']);
+  const FORCE_FEMALE = new Set(['rani', 'barbara', 'nea']);
 
-  // Heuristik sederhana (boleh kamu tambah sesuai kebutuhan)
-  const femaleHints = /(rani|barbara|nea|sri|ayu|putri|sari|dwi|lisa|nina|dina|ani\b|tia\b|ika\b|mega\b|wati\b|ningrum|astuti)/i;
-  const maleHints   = /(agus|budi|wawan|rio\b|andi|fajar|bayu|eko\b|yuda|andika|prasetyo|putra\b|permana|adi\b|yanto\b|anto\b|wahyu)/i;
+  // Nama tambahan sederhana
+  const femaleHints = /(rani|barbara|nea|sri|ayu|putri|sari|dwi|lisa|nina|dina|ani\b|tia\b|ika\b|mega\b|wati\b|ningrum|astuti|fika|ica)/i;
+  const maleHints   = /(ahmad|samuel|cinatra|husna|agus|budi|wawan|rio\b|andi|fajar|bayu|eko\b|yuda|andika|prasetyo|putra\b|permana|adi\b|yanto\b|anto\b|wahyu)/i;
 
   let gender = 'u'; // u=unknown, f=female, m=male
   if (FORCE_FEMALE.has(n)) {
@@ -207,7 +205,7 @@ async function askPrimbon(userText, displayName) {
   const system = `Kamu adalah "${BOT_NAME}", dukun Jawa modern yang lembut dan magis.
 Gunakan kosakata Jawa sewajarnya (pangestu, jamu, gamelan, pitutur, wuku, pasaran), dan mix lembut dengan bahasa indonesia.
 Tafsirkan PRIMBON/WETON secara ringkas, tidak absolut.
-Format 3 bagianm tapi Sampaikan dengan natural seolah-olah menasihati orang. Jangan in points tapi benar-benar memberikan mengenai :
+Format 3 bagianm tapi Sampaikan dengan natural seolah-olah menasihati orang. Jangan in points tapi benar-benar memberikan penjelasan mengenai :
 - **Tafsiran**: watak singkat, rejeki/jodoh/energi hari ini (1–3 kalimat).
 - **Pitutur**: satu kalimat petuah Jawa yang hangat.
 - **Tindakan kecil**: 1 hal sederhana untuk hari ini.
