@@ -1,16 +1,26 @@
 <div align="center">
 
-# 🧙‍♂️ Si Dukun Jawa
+# 🧙‍♂️ **Si Dukun Jawa Chatbot**
 ### _LLM Agent Primbon Jawa & Mood Reflection (Discord + CLI)_
 
 <img width="340" alt="pakdukun" src="https://github.com/user-attachments/assets/b4c9fc13-7fa9-454a-8488-34e53d108d3d" />
 
 <br/>
+<br/>
 
-<a href="https://drive.google.com/drive/folders/1-U2INGy8JMjosdgoF95Q0wwIOdx7cBrM?usp=sharing">
-  <img alt="Lihat Demo & Presentasi" src="https://img.shields.io/badge/Demo-Video & Presentasi-764ABC?style=for-the-badge&logo=google-drive&logoColor=white" />
+<a href="https://drive.google.com/drive/folders/1-U2INGy8JMjosdgoF95Q0wwIOdx7cBrM?usp=sharing" target="_blank">
+  <img src="https://img.shields.io/badge/🎥_Demo_&_Presentasi-Google_Drive-4285F4?style=for-the-badge&logo=google-drive&logoColor=white" alt="Lihat Demo & Presentasi">
 </a>
 
+<a href="https://www.canva.com/design/DAG13bS00-4/RjCbYANYV359kIdlcLcOsA/view?utm_content=DAG13bS00-4&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h77f3c362eb" target="_blank">
+  <img src="https://img.shields.io/badge/📊_PPT_Presentasi-Canva-8A2BE2?style=for-the-badge&logo=slideshare&logoColor=white" alt="PPT Presentasi">
+</a>
+
+<a href="https://island-stool-b9d.notion.site/296c183ce92d801fa4f7fb2fbc78c165?v=296c183ce92d8003a1af000caca1ae26&pvs=143" target="_blank">
+  <img src="https://img.shields.io/badge/📘_Laporan-Notion-9C27B0?style=for-the-badge&logo=notion&logoColor=white" alt="Link Laporan di Notion">
+</a>
+
+<br/>
 </div>
 
 ---
